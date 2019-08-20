@@ -17,6 +17,8 @@ public class Rooms {
     @Enumerated(EnumType.STRING)
     private RoomStatus roomStatus;
 
+    public Rooms() {
+    }
 
     public Rooms(String roomsNumber, RoomType roomType, RoomStatus roomStatus) {
         this.roomsNumber = roomsNumber;
